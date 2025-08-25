@@ -10,6 +10,9 @@ class TestRomanNumeral(unittest.TestCase):
 
     def test_three_nine_nine_nine(self):
         self.assertEqual(intToRoman(3999), "MMMCMXCIX")
+
+    def test_two_two_two(self):
+        self.assertEqual(intToRoman(222), "CCXXII")
     
 if __name__ == '__main__':
     unittest.main()
