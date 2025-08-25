@@ -1,5 +1,5 @@
 import unittest
-from utils.py import intToRoman
+from utils import intToRoman
 
 class TestRomanNumeral(unittest.TestCase):
     def test_zero(self):
